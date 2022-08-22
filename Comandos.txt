@@ -1,0 +1,9 @@
+//RUN
+go run main.go
+//iniciar mod
+go mod init test3
+//install gorillamux(Router)
+go get -u github.com/gorilla/mux
+//compilar todos los archivos de una carpeta
+go run ./
+
